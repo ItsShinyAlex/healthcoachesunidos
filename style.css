@@ -130,15 +130,64 @@ header {
   display: block;
   margin: 10px auto;
 }
+h1 {
+  color: #f1f2f4;
+  font-size: 40px;
+}
 h2 {
-  color: #0093be;
+  color: #5292bb;
   font-weight: 600;
+  font-size: 36px;
 }
 p {
+  font-size: 18px;
+  color: #9a999e;
+}
+p.white {
+  color: #f1f2f4;
+}
+p.big-p {
+  font-size: 24px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   font-size: 20px;
+  font-weight: 600;
+}
+li {
+  padding-left: 1em;
+  text-indent: -0.7em;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+}
+li.blue {
+  color: #5292bb;
+  font-weight: 600;
+}
+ul li::before {
+  content: "• ";
+  color: #a3bd31;
+}
+.btn-purple {
+  background-color: #46156c;
+  color: #f1f2f4;
+  font-size: 18px;
+  border: 0;
+  padding: 4px 16px;
+  border-radius: 8px;
+}
+div.contenedor-center {
+  margin: auto;
+  width: 45%;
+  padding: 10px;
+  text-align: center;
 }
 #intro {
-  background: url(img/slide.jpg) no-repeat center top;
+  padding-top: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/home/people-top.jpg) no-repeat center top;
   background-size: cover;
   min-height: 500px;
   display: block;
@@ -147,13 +196,20 @@ p {
   min-height: 500px;
   align-items: center;
 }
+#mision .flex li {
+  padding-right: 70px;
+}
+#mision .flex h2 {
+  padding-left: 30px;
+  padding-bottom: 25px;
+}
 #mision p {
   max-width: 500px;
   float: left;
   color: #9c9aa0;
 }
 #mision .fondo {
-  background: url(img/mision.jpg) no-repeat center top;
+  background: url(img/home/afiliate.jpg) no-repeat center top;
   background-size: cover;
   min-height: 500px;
 }
@@ -163,15 +219,26 @@ p {
 }
 #vision .contenido {
   max-width: 500px;
-  float: right;
+  float: left;
+  padding-left: 50px;
+}
+#vision .contenido li {
+  line-height: 240%;
+  padding: 0;
+}
+#vision .contenido ul {
+  padding-bottom: 20px;
 }
 #vision .contenido p {
   color: #9c9aa0;
 }
 #vision .fondo {
-  background: url(img/vision.jpg) no-repeat center top;
+  background: url(img/home/birrete.jpg) no-repeat center top;
   background-size: cover;
   min-height: 500px;
+}
+#123 {
+  background-color: #4493bc;
 }
 #banner .sin-padding {
   padding: 0;

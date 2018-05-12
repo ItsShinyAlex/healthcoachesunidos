@@ -31,6 +31,14 @@ body {
    Base styles: opinionated defaults
    ========================================================================== */
 
+@purple: #46156c;
+@blue: #5292bb;
+@green: #a3bd31;
+@blue-background: #4493bc;
+@gray: #9a999e;
+@white: #f1f2f4;
+
+
 html {
     color: #222;
     font-size: 1em;
@@ -159,25 +167,100 @@ header {
     margin: 10px auto;
 }
 
+h1{
+    color: @white;
+    font-size: 40px;
+}
+
 h2 {
-    color: #0093be;
+    color: @blue;
     font-weight: 600;
+    font-size: 36px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
+    color: @gray;
+    &.white{
+        color: @white;
+    }
+    &.big-p{
+        font-size: 24px;
+    }
+}
+
+ul {
+      
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  
+}
+
+li {
+  
+  padding-left: 1em; 
+  text-indent: -.7em;
+  font-size: 20px;
+  font-weight: 400; 
+  line-height: 140%; 
+    &.blue{
+        color: @blue;
+        font-weight: 600; 
+    }
+}
+
+
+ul li::before {
+  content: "• ";
+  color: @green; 
+}
+
+.btn-purple{
+    background-color: @purple;
+    color: @white;
+    font-size: 18px;
+    border: 0;
+    padding: 4px 16px;
+    border-radius: 8px;
+    
+}
+
+
+div.contenedor-center{
+    margin: auto;
+    width: 45%;
+    padding: 10px; 
+    text-align: center;
 }
 
 #intro {
-    background: url(./img/slide.jpg) no-repeat center top;
+    padding-top: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/home/people-top.jpg) no-repeat center top;
     background-size: cover;
+    
     min-height: 500px;
     display: block;
+    
+    
+    
 }
 
-#mision .flex {
+#mision {
+    .flex {
+    
     min-height: 500px;
     align-items: center;
+    li{
+        padding-right: 70px;
+        }
+    h2{
+        padding-left: 30px;
+        padding-bottom: 25px;
+    }
+  }
 }
 
 #mision p {
@@ -187,19 +270,37 @@ p {
 }
 
 #mision .fondo {
-    background: url(./img/mision.jpg) no-repeat center top;
+    background: url(./img/home/afiliate.jpg) no-repeat center top;
     background-size: cover;
     min-height: 500px;
 }
 
 #vision .flex {
+    
+    
     min-height: 500px;
     align-items: center;
+    li{
+        //padding-left: 50px;
+    }
+    h2{
+        //padding-left: 50px;
+    }
+
 }
 
 #vision .contenido {
     max-width: 500px;
-    float: right;
+    float: left;
+    padding-left: 50px;
+    li{
+        line-height: 240%;
+        padding: 0;
+        
+    }
+    ul{
+        padding-bottom: 20px;
+    }
 }
 
 #vision .contenido p {
@@ -207,9 +308,13 @@ p {
 }
 
 #vision .fondo {
-    background: url(./img/vision.jpg) no-repeat center top;
+    background: url(./img/home/birrete.jpg) no-repeat center top;
     background-size: cover;
     min-height: 500px;
+}
+
+#123{
+    background-color: @blue-background;
 }
 
 #banner {

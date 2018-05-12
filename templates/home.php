@@ -8,20 +8,42 @@
         </header>
         
         <section id="intro">
-        	<img class="hide-desktop" src="<?php echo get_stylesheet_directory_uri(); ?>/img/responsive/slide.jpg" alt="">
+        	<div class="contenedor-center">
+        	    <h1>Únete a la Asociación de Health Coaches </h1>
+        	    <p class="white big-p">Sé parte de esta comunidad. Avala tu práctica profesional en México y recibe todos los beneficios. </p>
+        	    <a class="btn-purple" href="#">ME INTERESA</a>
+        	</div>
         </section>
         
         <section id="mision">            
                 <div class="flex">
                     <div class="sin-padding columna fondo"></div>
                     <div class="columna">
-                        <h2>Misión</h2>
-                        <p>
-                            Somos una comunidad de Health Coaches comprometidos a elevar el bienestar integral de los mexicanos a través de cambios de hábitos en el estilo de vida.
-                        </p>
-                        <p>
-                            Dedicados a apoyar el desarrollo profesional de los asociados en México y trabajar en el posicionamiento de la práctica de Health Coaching como un elemento clave para mantener la salud integral.
-                        </p>
+                        <h2>Afíliate y disfruta los <br>
+                        siguientes beneficios:</h2>
+                        <ul>
+                            <li>
+                                Recibirás tu distintivo oficial de miembro avalado en su calidad de práctica.
+                            </li>
+                            <li>
+                                Tendrás un perfil en el directorio de Health Coaches avalados y podrás publicar los enlaces de tus redes sociales.
+                            </li>
+                            <li>
+                                Acceso, descuentos y trato preferencial en eventos de networking organizados por Asociación.
+                            </li>
+                            <li>
+                                Acceso a entrenamientos, talleres, conferencias presenciales o en la plataforma on line para actualización de tu práctica y habilidades.
+                            </li>
+                            <li>
+                                Recepción de newsletters con información actualizada y relevante para la práctica.
+                            </li>
+                            <li>
+                                Posibilidad de publicación de tu contenido con créditos y re dirección a su sitio web (sólo personas registradas).
+                            </li>
+                            <li class="blue">
+                                Y 2 boletos de acceso al primer "Health Coaching Weekend" a celebrarse el 20 y 21 de octubre de 2018
+                            </li>
+                        </ul>
                     </div>
                 </div>
             
@@ -32,10 +54,15 @@
                     
                     <div class="columna">
                        <div class="contenido">
-                          <h2>Visión</h2>
-                        <p>
-                            Ser la comunidad líder de Health Coaches en México responsable de acreditar la buena práctica de Health Coaching logrando así el reconocimiento de la sociedad y profesionales de salud como aliados en materia de prevención y bienestar en nuestro país.
-                        </p> 
+                          <h2>Requisitos para<br>
+                            afiliarte:</h2>
+                        <ul>
+                            <li>Ser graduado de INN </li>
+                            <li>Certificado de Health Coach</li>
+                            <li>Validar tu certificado</li>
+                        </ul>
+                        
+                        <a href="#" class="btn-purple">¿CÓMO VALIDAR?</a>
                        </div>
                                            
                     </div>
@@ -44,29 +71,39 @@
                 </div>
         </section>
         
-        <section id="banner">
+        <section id="123">
+            <div class="green-line"></div>
+            <div class="flex center-h">
+                <h2>Afíliate en 3 sencillos pasos</h2>
+            </div>
             <div class="flex">
-                <div class="columna sin-padding">
-                	<img class="hide-desktop" src="<?php echo get_stylesheet_directory_uri(); ?>/img/responsive/logo-evento.jpg" alt="">
-
-                	 <img class="banner-pc hide-movil" src="<?php echo get_stylesheet_directory_uri(); ?>/img/banner.jpg" alt="">
+                <div class="columna">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/1p.png" alt="PayPal">
+                    <p class="white bigger">Realiza tu pago vía Paypal, Transferencia o depósito </p>
                 </div>
-                <div class="columna">                   
-
-                    <div class="movil">
-                    	<h2>El primer gran foro de Salud Integral en México</h2>
-
-                    	<ul>
-                    		<li>Nutrición holística</li>
-                    		<li>Alimentación consciente - Mindfulness</li>
-                    		<li>Clean eating</li>
-                    		<li>Cambio de hábitos</li>
-                    		<li>Salud emocional</li>
-                    		<li>Fitness</li>
-                    		<li>Talleres de sanación holística: Yoga, meditación</li>
-                    		<li>Talleres de cocina saludable</li>
-                    	</ul>
-                    </div>
+                <div class="columna">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/2mail.png" alt="Mail">
+                    <p class="white bigger">Envía el comprobante
+                    (si pagas con Paypal, no es necesario)</p>
+                </div>
+                <div class="columna">
+                    <p class="white bigger">Recibe en tu email y descarga tu kit de bienvenida</p>
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/3download.png" alt="Descarga">
+                </div>
+            </div>
+            <div class="green-line"></div>
+        </section>
+        
+        <section id="descuento">
+            <div class="flex">
+                <div class="columna">                
+                </div>
+                <div class="columna flex center-h">
+                    <h2>Aprovecha este descuento especial<br> 
+                    ¡Afíliate ya por $1,499 pesos! </h2>
+                    <p class="gray">(Descuento válido para los primeros<br>    
+                    100 Health Coaches)</p> 
+                    <a href="#" class="btn-purple">AFILIARME</a>
                 </div>
             </div>
         </section>
