@@ -2,11 +2,7 @@
     /* Template Name: Principal */ 
     get_header();
 ?>
-<!-- Add your site or application content here -->
-        <header>
-            <img id="logo" src="img/logo.png" alt="center">
-        </header>
-        
+<!-- Add your site or application content here -->        
         <section id="intro">
         	<div class="contenedor-center">
         	    <h1>Únete a la Asociación de Health Coaches </h1>
@@ -71,24 +67,25 @@
                 </div>
         </section>
         
-        <section id="123">
+        <section id="blue123">
             <div class="green-line"></div>
             <div class="flex center-h">
                 <h2>Afíliate en 3 sencillos pasos</h2>
             </div>
             <div class="flex">
-                <div class="columna">
+                <div class="columna center">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/1p.png" alt="PayPal">
                     <p class="white bigger">Realiza tu pago vía Paypal, Transferencia o depósito </p>
                 </div>
-                <div class="columna">
+                <div class="columna center">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/2mail.png" alt="Mail">
                     <p class="white bigger">Envía el comprobante
                     (si pagas con Paypal, no es necesario)</p>
                 </div>
-                <div class="columna">
-                    <p class="white bigger">Recibe en tu email y descarga tu kit de bienvenida</p>
+                <div class="columna center">
+                    
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/3download.png" alt="Descarga">
+                    <p class="white bigger">Recibe en tu email y descarga tu kit de bienvenida</p>
                 </div>
             </div>
             <div class="green-line"></div>
@@ -96,12 +93,12 @@
         
         <section id="descuento">
             <div class="flex">
-                <div class="columna">                
+                <div id="miss-veg" class="columna">                
                 </div>
-                <div class="columna flex center-h">
+                <div class="columna center">
                     <h2>Aprovecha este descuento especial<br> 
                     ¡Afíliate ya por $1,499 pesos! </h2>
-                    <p class="gray">(Descuento válido para los primeros<br>    
+                    <p class="gray bigger">(Descuento válido para los primeros<br>    
                     100 Health Coaches)</p> 
                     <a href="#" class="btn-purple">AFILIARME</a>
                 </div>

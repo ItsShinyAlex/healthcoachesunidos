@@ -99,6 +99,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+i {
+  color: #8db3ce;
+  font-size: 30px;
+}
 .hide-desktop {
   display: none;
 }
@@ -149,6 +153,13 @@ p.white {
 p.big-p {
   font-size: 24px;
 }
+p.bigger {
+  font-size: 26px;
+}
+p.blue {
+  color: #5292bb;
+  font-weight: 700;
+}
 ul {
   list-style: none;
   padding: 0;
@@ -185,6 +196,13 @@ div.contenedor-center {
   padding: 10px;
   text-align: center;
 }
+div.center {
+  text-align: center;
+  justify-content: center;
+}
+/* ==========================================================================
+   Home
+   ========================================================================== */
 #intro {
   padding-top: 400px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/home/people-top.jpg) no-repeat center top;
@@ -211,7 +229,7 @@ div.contenedor-center {
 #mision .fondo {
   background: url(img/home/afiliate.jpg) no-repeat center top;
   background-size: cover;
-  min-height: 500px;
+  min-height: 650px;
 }
 #vision .flex {
   min-height: 500px;
@@ -235,10 +253,51 @@ div.contenedor-center {
 #vision .fondo {
   background: url(img/home/birrete.jpg) no-repeat center top;
   background-size: cover;
+  min-height: 650px;
+}
+#blue123 {
+  background-color: #4493bc;
+  background-size: cover;
+  min-height: 450px;
+}
+#blue123 h2 {
+  color: #f1f2f4;
+}
+#blue123 .flex {
+  padding: 140px 60px;
+}
+#blue123 .flex .columna {
+  width: 33%;
+  padding: 0px 90px;
+}
+#blue123 .flex .columna img {
+  padding-bottom: 40px;
+}
+#blue123 .flex .columna p {
+  line-height: 120%;
+}
+#blue123 .flex.center-h {
+  padding-bottom: 0px;
+}
+#blue123 div.green-line {
+  background-color: #a3bd31;
+  height: 20px;
+}
+#descuento {
+  background-color: #f1f2f4;
   min-height: 500px;
 }
-#123 {
-  background-color: #4493bc;
+#descuento #miss-veg {
+  background: url(img/home/miss-veggies.png) no-repeat center;
+  background-size: 89%;
+  width: 40%;
+}
+#descuento .columna {
+  width: 60%;
+  min-height: 500px;
+}
+#descuento .columna h2 {
+  margin-top: 15%;
 }
 #banner .sin-padding {
   padding: 0;
@@ -284,6 +343,110 @@ div.contenedor-center {
   font-size: 1em;
   color: #fff;
   margin-top: 10px;
+}
+/* ==========================================================================
+   Quienes somos
+   ========================================================================== */
+#who .fondo {
+  background: url(img/quienes/elasticidad.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 650px;
+}
+#who {
+  background-color: #f1f2f4;
+}
+#who .flex {
+  min-height: 500px;
+  align-items: center;
+}
+#who .flex .columna {
+  padding-left: 70px;
+}
+#who .flex h2 {
+  padding-bottom: 25px;
+}
+#mision-vision {
+  background-color: #f1f2f4;
+}
+#mision-vision .flex {
+  min-height: 500px;
+  align-items: center;
+}
+#mision-vision .contenido {
+  max-width: 500px;
+  float: left;
+  padding-left: 50px;
+}
+#mision-vision .contenido li {
+  line-height: 240%;
+  padding: 0;
+}
+#mision-vision .contenido ul {
+  padding-bottom: 20px;
+}
+#mision-vision .contenido p {
+  color: #9c9aa0;
+}
+#mision-vision .fondo {
+  background: url(img/quienes/girl-mision.jpg) no-repeat center top;
+  background-size: cover;
+  min-height: 650px;
+}
+#valores {
+  background-color: #93ad1f;
+  min-height: 500px;
+}
+#valores h2 {
+  color: #f1f2f4;
+}
+#valores .center {
+  padding: 0px 180px;
+}
+#valores .flex {
+  padding: 5px 0px;
+}
+#valores .flex .columna {
+  width: 50%;
+  padding: 0px 0px;
+}
+#valores .flex .columna img {
+  padding-bottom: 40px;
+}
+#valores .flex .columna p {
+  line-height: 120%;
+}
+#valores .flex.center-h {
+  padding: 80px 0px;
+}
+#valores div.blue-line {
+  background-color: #4493bc;
+  height: 20px;
+}
+#contact {
+  background-color: #f1f2f4;
+  min-height: 666px;
+  padding-top: 150px;
+}
+#contact .columna {
+  padding-top: 40px;
+}
+#contact .flex .columna .contacto {
+  align-items: center;
+  padding-right: 20px;
+  width: 5%;
+}
+#contact .flex .columna .contacto i {
+  padding: 6px 0px 36px 0px;
+}
+#contact .flex .columna .columna-contacto {
+  width: 95%;
+}
+#contact .border {
+  border: 2px solid #5292bb;
+  height: 180px;
+  width: 500px;
+  resize: both;
+  overflow: auto;
 }
 /* ==========================================================================
    Helper classes
@@ -366,8 +529,14 @@ div.contenedor-center {
    Modify as content requires.
    ========================================================================== */
 @media only screen and (max-width: 600px) {
+  p.bigger {
+    font-size: 17px;
+  }
   p {
-    font-size: 16px;
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 20px;
   }
   .hide-movil {
     display: none;
@@ -436,6 +605,235 @@ div.contenedor-center {
   }
   #contacto form {
     max-width: 90% !important;
+  }
+  /* ==========================================================================
+   Quienes somos RESPONSIVE
+   ========================================================================== */
+  #who .fondo {
+    background: url(img/quienes/elasticidad.jpg) no-repeat center;
+    background-size: 100%;
+    min-height: 150px;
+    margin-bottom: 30px;
+  }
+  #who {
+    background-color: #f1f2f4;
+  }
+  #who .flex {
+    min-height: 500px;
+    align-items: center;
+    text-align: center;
+  }
+  #who .flex .columna {
+    padding-left: 10px;
+  }
+  #who .flex h2 {
+    padding-bottom: 25px;
+  }
+  #mision-vision {
+    background-color: #f1f2f4;
+  }
+  #mision-vision .flex {
+    min-height: 400px;
+    align-items: center;
+    text-align: center;
+  }
+  #mision-vision .contenido {
+    max-width: 500px;
+    float: left;
+    padding-left: 0px;
+  }
+  #mision-vision .contenido li {
+    line-height: 240%;
+    padding: 0;
+  }
+  #mision-vision .contenido ul {
+    padding-bottom: 20px;
+  }
+  #mision-vision .contenido p {
+    color: #9c9aa0;
+  }
+  #mision-vision .fondo {
+    background: url(img/quienes/girl-mision.jpg) no-repeat center top;
+    background-size: 100%;
+    min-height: 150px;
+  }
+  #valores {
+    min-height: 200px;
+  }
+  #valores img {
+    width: 100%;
+  }
+  #valores .center {
+    padding: 0px 40px;
+  }
+  #valores .flex {
+    padding: 5px 0px;
+  }
+  #valores .flex .columna {
+    width: 100%;
+    padding: 0px 0px;
+  }
+  #valores .flex .columna img {
+    padding-bottom: 20px;
+  }
+  #valores .flex.center-h {
+    padding: 20px 0px;
+  }
+  #valores div.blue-line {
+    background-color: #4493bc;
+    height: 7px;
+  }
+  #contact {
+    background-color: #f1f2f4;
+    min-height: 366px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #contact .columna {
+    padding-top: 10px;
+  }
+  #contact .border {
+    border: 1px solid #5292bb;
+    height: 180px;
+    width: 225px;
+    resize: both;
+    overflow: auto;
+  }
+  #contact .flex .columna {
+    padding: 0px 5px;
+  }
+  #contact .flex .columna p {
+    font-size: 12px;
+    padding: 0px 0px;
+  }
+  #contact .flex .columna .contacto {
+    align-items: center;
+    padding-right: 5px;
+    width: 15%;
+  }
+  #contact .flex .columna .contacto i {
+    padding: 0px;
+    font-size: 20px;
+  }
+  #contact .flex .columna .columna-contacto {
+    width: 80%;
+  }
+  /* ==========================================================================
+   Home RESPONSIVE
+   ========================================================================== */
+  li {
+    padding-bottom: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 120%;
+  }
+  .btn-purple {
+    font-size: 12px;
+    padding: 2px 8px;
+  }
+  div.contenedor-center {
+    padding: 0px;
+    width: 90%;
+  }
+  #intro {
+    padding: 40px 0px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/home/people-top.jpg) no-repeat center top;
+    background-size: cover;
+    min-height: 200px;
+    display: block;
+  }
+  #intro h1 {
+    font-size: 21px;
+  }
+  #intro p.big-p {
+    font-size: 15px;
+  }
+  #mision {
+    min-height: 800px;
+  }
+  #mision .flex {
+    align-items: center;
+  }
+  #mision .flex li {
+    padding-right: 10px;
+  }
+  #mision .flex h2 {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+  #mision p {
+    max-width: 300px;
+    float: left;
+    color: #9c9aa0;
+  }
+  #mision .fondo {
+    background: url(img/home/afiliate.jpg) no-repeat center top;
+    background-size: cover;
+    min-height: 200px;
+  }
+  #vision .flex {
+    min-height: 300px;
+    align-items: center;
+  }
+  #vision .contenido {
+    min-height: 240px;
+    float: left;
+    padding-left: 30px;
+  }
+  #vision .contenido li {
+    line-height: 200%;
+    padding: 0;
+  }
+  #vision .contenido ul {
+    padding-bottom: 10px;
+  }
+  #vision .fondo {
+    background: url(img/home/birrete.jpg) no-repeat center top;
+    background-size: cover;
+    min-height: 200px;
+  }
+  #blue123 {
+    min-height: 280px;
+  }
+  #blue123 h2 {
+    color: #f1f2f4;
+  }
+  #blue123 .flex {
+    text-align: center;
+    padding: 40px 10px;
+  }
+  #blue123 .flex .columna {
+    width: 100%;
+    padding: 10px;
+  }
+  #blue123 .flex .columna img {
+    padding-bottom: 20px;
+  }
+  #blue123 .flex .columna p {
+    line-height: 110%;
+  }
+  #blue123 .flex img {
+    width: 90%;
+  }
+  #blue123 div.green-line {
+    height: 7px;
+  }
+  #descuento {
+    min-height: 300px;
+  }
+  #descuento #miss-veg {
+    background: url(img/home/miss-veggies.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    min-height: 200px;
+  }
+  #descuento .columna {
+    width: 100%;
+    min-height: 100px;
+  }
+  #descuento .columna h2 {
+    margin-top: 15%;
   }
 }
 @media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
