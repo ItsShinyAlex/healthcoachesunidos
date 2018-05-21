@@ -112,16 +112,6 @@
         </section>
         
         <section id="contacto">
-            <div class="contenedor">
-                <h2>¡Únete a esta comunidad en pro del bienestar!</h2>
-                <p>Para mayor información sobre como afiliarte, por favor deja tus datos.</p>
-                <?php 
-                    echo do_shortcode('[caldera_form id="CF5ad15a1cc0472"]');
-                 ?>
-           
-
-            
-             </div>
 
              <div class="full">
              	<div class="contenedor">

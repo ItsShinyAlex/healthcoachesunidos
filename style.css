@@ -458,6 +458,38 @@ div.center {
   resize: both;
   overflow: auto;
 }
+#contact .caldera-grid .form-control::-webkit-input-placeholder {
+  color: white;
+}
+#contact #fld_5397368_1 {
+  background-color: #46156c;
+  color: #f1f2f4;
+  font-size: 18px;
+  border: 0;
+  padding: 4px 16px;
+  border-radius: 8px;
+}
+#contact .form-control {
+  background-color: #8db3ce;
+  border-radius: 8px;
+}
+#contact #CF5b0348dd99b2a_1-row-5 {
+  float: right;
+}
+#contact .control-label {
+  font-size: 24px;
+  color: #9a999e;
+  padding-bottom: 30px;
+}
+#contact label {
+  color: #9a999e;
+}
+#contact .col-sm-12.single {
+  padding-bottom: 15px;
+}
+#contact .col-sm-6 {
+  padding-bottom: 15px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */

@@ -75,7 +75,8 @@
         <section id="contact">
            <div class="center"><h2>¡Contáctanos y únete a esta comunidad en pro del bienestar! </h2></div>
             <div class="flex">
-                <div class="columna center">                
+                <div class="columna"> 
+                    <?php echo do_shortcode('[caldera_form id="CF5b0348dd99b2a"]'); ?>               
                 </div>
                 
                 
