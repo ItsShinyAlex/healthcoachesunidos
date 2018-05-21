@@ -7,7 +7,7 @@
         	<div class="contenedor-center">
         	    <h1>Únete a la Asociación de Health Coaches </h1>
         	    <p class="white big-p">Sé parte de esta comunidad. Avala tu práctica profesional en México y recibe todos los beneficios. </p>
-        	    <a class="btn-purple" href="#">ME INTERESA</a>
+        	    <a class="btn-purple" href="#mision">ME INTERESA</a>
         	</div>
         </section>
         
