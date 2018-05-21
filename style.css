@@ -211,7 +211,7 @@ div.center {
   display: block;
 }
 #mision .flex {
-  min-height: 500px;
+  min-height: 640px;
   align-items: center;
 }
 #mision .flex li {
@@ -227,9 +227,19 @@ div.center {
   color: #9c9aa0;
 }
 #mision .fondo {
-  background: url(img/home/afiliate.jpg) no-repeat center top;
+  background: url(img/home/afiliate.jpg) no-repeat center;
   background-size: cover;
   min-height: 650px;
+}
+#vision {
+  min-height: 640px;
+}
+#vision img#sello {
+  padding-top: 22px;
+  padding-left: 18px;
+}
+#vision .pad-top {
+  padding-top: 100px;
 }
 #vision .flex {
   min-height: 500px;
@@ -241,7 +251,7 @@ div.center {
   padding-left: 50px;
 }
 #vision .contenido li {
-  line-height: 240%;
+  line-height: 120%;
   padding: 0;
 }
 #vision .contenido ul {
@@ -289,7 +299,7 @@ div.center {
 }
 #descuento #miss-veg {
   background: url(img/home/miss-veggies.png) no-repeat center;
-  background-size: 89%;
+  background-size: cover;
   width: 40%;
 }
 #descuento .columna {
@@ -773,7 +783,7 @@ div.center {
     min-height: 200px;
   }
   #vision .flex {
-    min-height: 300px;
+    min-height: 400px;
     align-items: center;
   }
   #vision .contenido {
@@ -787,6 +797,9 @@ div.center {
   }
   #vision .contenido ul {
     padding-bottom: 10px;
+  }
+  #vision {
+    min-height: 800px;
   }
   #vision .fondo {
     background: url(img/home/birrete.jpg) no-repeat center top;

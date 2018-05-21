@@ -19,7 +19,7 @@
                         siguientes beneficios:</h2>
                         <ul>
                             <li>
-                                Recibirás tu distintivo oficial de miembro avalado en su calidad de práctica.
+                                Recibirás tu distintivo oficial de miembro avalado en su calidad de práctica, el cual podrás publicarlo en tus redes sociales y sitio web.
                             </li>
                             <li>
                                 Tendrás un perfil en el directorio de Health Coaches avalados y podrás publicar los enlaces de tus redes sociales.
@@ -53,13 +53,19 @@
                           <h2>Requisitos para<br>
                             afiliarte:</h2>
                         <ul>
-                            <li>Ser graduado de INN </li>
-                            <li>Certificado de Health Coach</li>
+                            <li>Ser Health Coach Certificado por INN </li>
                             <li>Validar tu certificado</li>
+                            <li>Tener activo tu badge INN</li>
+                            <img id="sello" src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/int-nut-validar.png" alt="Integrative nutrition">
+                            
                         </ul>
                         
                         <a href="#" class="btn-purple">¿CÓMO VALIDAR?</a>
+                        
+                        <p class="pad-top">Asociación avalada por INN</p>
+                        <a href="https://www.integrativenutrition.com/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/IIN-logo-red.png" alt="Institute for integrative nutrition"></a>
                        </div>
+                        
                                            
                     </div>
                     

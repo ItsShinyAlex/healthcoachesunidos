@@ -16,8 +16,9 @@
                         <p>Somos la Asociación de Health Coaches Unidos de México (AHCUM),  acreditamos y reúnimos a los profesionales de esta área con el objetivo de  comunicar con claridad las actividades y funciones de un health coach y su relación de apoyo con otras áreas: Médicos, Nutriólogos,  Psicólogos,  entre otros.</p>
                         <p>
                         Constituida como  ORG en enero de 2018,  la AHCUM pretende ampliar el alcance, reconocimiento y  awareness (conciencia)  de la profesión, para brindar a sus asociados mejores oportunidades laborales y finalmente inspirar el cambio de hábitos de estilo de vida de los mexicanos. </p>
-                        <p>Somos un grupo de entrenadores de IIN Health entusiastas, comprometidos y profesionales que persiguen <b>un sueño común</b>:</p>
-                        <p class="blue">"Ayudar a las personas a transformar sus vidas, inspirar cambios y expandir la conciencia"</p>
+                        
+                        <p>Somos un grupo de coaches de salud integral de INN Health entusiastas, comprometidos y profesionales que persiguen <b>un sueño común</b>:</p>
+                        <p class="blue">"Ayudar a las personas a transformar sus vidas, inspirar cambio de hábitos y expandir la conciencia"</p>
                         
                     </div>
                 </div>
@@ -30,7 +31,7 @@
                     <div class="columna">
                        <div class="contenido">
                           <h2>Misión</h2>
-                        <p>Inspirar y contribuir a un México más saludable y feliz. Nuestra comunidad de Coaches de Salud se compromete a elevar el bienestar general de los mexicanos mediante el fomento de cambios en los hábitos de vida. También nos dedicamos a apoyar el desarrollo profesional de los asociados y trabajar en el posicionamiento de la práctica del Coaching de Salud como un elemento clave para mantener una salud integral.</p>
+                        <p>Inspirar y contribuir a un México más saludable y feliz. Nuestra comunidad de Health Coaches se compromete a elevar el bienestar general de los mexicanos mediante el fomento de cambios en los hábitos de vida. También nos dedicamos a apoyar el desarrollo profesional de los asociados y trabajar en el posicionamiento de la práctica del Coaching de Salud como un elemento clave para mantener una salud integral.</p>
                         
                         <h2>Visión</h2>
                         <p>Ser la principal comunidad de Health coaches en México responsable de acreditar la buena práctica del Coaching de Salud, logrando así el reconocimiento de la sociedad y los profesionales de la salud como aliados en materia de prevención y bienestar en nuestro país.</p>
