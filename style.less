@@ -30,6 +30,23 @@ body {
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Bold.woff2') format('woff2'),
+        url('fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.woff2') format('woff2'),
+        url('fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 
 @purple: #46156c;
 @blue: #5292bb;
@@ -257,6 +274,36 @@ div.contenedor-center{
 div.center{
     text-align: center;
     justify-content: center;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+    .header-style-2 .header-logo a img {
+    width: 200px;
+    
+    }
+
+.mk-desktop-logo .dark-logo .mk-svg{
+    width: 200px;
+}
+
+img.mk-desktop-logo{
+    width: 200px;
+}
+
+img.dark-logo{
+    width: 200px;
+}
+
+img.mk-svg{
+    width: 200px;
+}
+
+
+.header-style-1 .logo-has-sticky .mk-sticky-logo, .header-style-3 .logo-has-sticky .mk-sticky-logo {
+    opacity: 1;
 }
 
 /* ==========================================================================
@@ -532,7 +579,7 @@ div.center{
         color: @white;        
     }
     .center{
-        padding: 0px 180px;
+        padding: 0px 100px;
     }
     .flex{
         padding: 5px 0px;
@@ -613,6 +660,17 @@ div.center{
         
     }
     
+    #fld_7908577_2{ 
+    background-color: @purple;
+    color: @white;
+    font-size: 18px;
+    border: 0;
+    padding: 4px 16px;
+    border-radius: 8px;
+
+        
+    }
+    
     .form-control{
         background-color: @blue-con;
         //border: 0px solid white;
@@ -623,6 +681,11 @@ div.center{
     
     #CF5b0348dd99b2a_1-row-5{
         float: right;
+    }
+    
+    #CF5ad15a1cc0472_2-row-3{
+        float: right;
+        padding-right: 16px;
     }
     
     .control-label{
@@ -645,8 +708,82 @@ div.center{
 }
 
 
-    
+ /* ==========================================================================
+   Aviso de privacidad
+   ========================================================================== */   
+#aviso{
+    padding-top: 100px;
+    h1{
+        color: @purple;
+    }
+    h2{
+        padding-top: 30px;
+        font-size: 24px;
+    }
+    li{
+        color: @gray;
+        font-size: 18px;
+    }
+    ul{
+        padding-bottom: 25px;
+    }
+    i{
+        color: @gray;
+        font-size: 18px;
+    }
+}
 
+ /* ==========================================================================
+   footer
+   ========================================================================== */  
+@black: #282828;
+#footer{
+    padding: 60px 105px;
+    background-color: @black;
+    .menu-footer{
+        padding-left: 20px;
+    }
+    
+    a:hover{
+        color: @gray;
+    }
+    
+    a{
+        color: white;
+    }
+    
+    p{
+        color: white;
+        font-size: 12px;
+        word-spacing: 4px;
+    }
+    #flogo{
+        width: 10%;
+        p{
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+    .bot{
+        padding-top: 30px;
+    }
+    .columna{
+        width: 30%;
+    }
+}
+
+
+ /* ==========================================================================
+   header menu
+   ========================================================================== */  
+
+    ul li::before {
+    content: "• ";
+    color: white;
+    }
+
+     
+    
 
 
 /* ==========================================================================
@@ -1126,7 +1263,7 @@ div.center{
     #miss-veg{
         background: url(./img/home/miss-veggies.png) no-repeat center;
         background-size: cover;
-        width: 100%;
+        //width: 100%;
         min-height: 200px;
     }
     .columna{
