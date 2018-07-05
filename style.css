@@ -199,7 +199,23 @@ ul li::before {
   color: #f1f2f4;
   font-size: 18px;
   border: 0;
-  padding: 4px 16px;
+  padding: 4px 24px;
+  border-radius: 8px;
+}
+.btn-blue {
+  background-color: #4493bc;
+  color: #f1f2f4;
+  font-size: 18px;
+  border: 0;
+  padding: 4px 24px;
+  border-radius: 8px;
+}
+.btn-green {
+  background-color: #a3bd31;
+  color: #f1f2f4;
+  font-size: 18px;
+  border: 0;
+  padding: 4px 24px;
   border-radius: 8px;
 }
 div.contenedor-center {
@@ -559,6 +575,191 @@ img.mk-svg {
 #aviso i {
   color: #9a999e;
   font-size: 18px;
+}
+/* ==========================================================================
+   Weekend
+   ========================================================================== */
+.blue-line {
+  background-color: #4493bc;
+  height: 14px;
+}
+h1,
+h2 {
+  color: #5292bb;
+  font-weight: 600;
+}
+.purple {
+  color: #46156c;
+  font-weight: 500;
+}
+.r-allign {
+  text-align: right;
+  margin-left: auto;
+  margin-right: 0;
+  float: right;
+}
+.container {
+  margin: auto;
+  max-width: 1200px;
+}
+#weekend {
+  padding: 170px 190px;
+  min-height: 300px;
+  background: url("img/weekend/banner1_mujer.png") center -110px no-repeat;
+  background-size: 100%;
+}
+#weekend .r-allign {
+  padding-left: 42%;
+}
+#weekend h1,
+#weekend h2 {
+  font-size: 48px;
+}
+#weekend .purple {
+  font-weight: 600;
+}
+#weekend .flex {
+  justify-content: flex-end;
+}
+#weekend .flex .col {
+  margin: 10px;
+}
+.pad-top {
+  padding-top: 45px;
+}
+.pad-bot {
+  padding-bottom: 50px;
+}
+#blue-ahcum {
+  background-color: #4493bc;
+}
+#blue-ahcum .green-line {
+  min-height: 12px;
+  background-color: #a3bd31;
+}
+#blue-ahcum p {
+  color: white;
+  font-size: 22px;
+}
+#que-tendras .fondo {
+  background: url(img/weekend/microfono.jpg) center no-repeat;
+  background-size: cover;
+  margin-right: 50px;
+}
+#que-tendras h2 {
+  padding-top: 80px;
+}
+#que-tendras ul {
+  padding-bottom: 160px;
+  padding-right: 50px;
+}
+#que-tendras ul li::before {
+  content: "• ";
+  color: #a3bd31;
+  font-size: 48px;
+  position: relative;
+  top: 12px;
+}
+#que-tendras li {
+  font-size: 19px;
+  color: #9a999e;
+  padding-bottom: 25px;
+  margin-left: 10px;
+  text-indent: -30px;
+}
+#speakers {
+  background: url(img/weekend/fondo-madera.jpg) center no-repeat;
+  background-size: cover;
+}
+#speakers h1 {
+  padding-top: 60px;
+}
+#speakers .col {
+  margin: 10px;
+}
+#speakers .hc {
+  padding: 30px 70px;
+  text-align: left;
+  margin-top: 45px;
+  margin-bottom: 40px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0px 0px 2px 2px;
+  /*any color you want*/
+}
+#speakers .hc .small {
+  padding-right: 50px;
+}
+#speakers .hc h3 {
+  color: #5292bb;
+  font-weight: 600;
+}
+#speakers .hc h4 {
+  color: #5292bb;
+  font-weight: 500;
+}
+#speakers .hc i {
+  width: 1%;
+}
+#speakers .hc p {
+  font-size: 24px;
+}
+#speakers .hc .i-col {
+  width: 5%;
+  margin: 7px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+#speakers .hc .t-col {
+  margin-right: 20px;
+}
+#speakers .hc .icons i {
+  color: #46156c;
+}
+#speakers .hc .horarios i {
+  color: #a3bd31;
+}
+#speakers .hc .info {
+  text-align: justify;
+  padding-top: 45px;
+}
+#speakers .flex-center {
+  align-items: center;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+}
+#speakers .center {
+  align-items: center;
+}
+.green {
+  color: #a3bd31;
+}
+#reserva iframe {
+  width: 100%;
+}
+#reserva .container {
+  max-width: 1350px;
+}
+#reserva .pad-left {
+  padding-left: 60px;
+}
+#reserva .flex .col {
+  width: 54%;
+}
+#reserva .flex .p-col {
+  width: 46%;
+  background-color: #46156c;
+  padding-bottom: 100px;
+  padding-left: 80px;
+  padding-right: 20px;
+}
+#reserva h3 {
+  font-weight: 600;
+}
+#reserva h2 {
+  padding-top: 100px;
 }
 /* ==========================================================================
    footer
