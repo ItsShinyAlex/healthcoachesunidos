@@ -13,8 +13,8 @@
             Weekend en México</h1>
             <p class="purple">¡Vive la experiencia de salud y bienestar<br> este 20 y 21 de Octubre!</p>
             <div class="flex">
-                <div class="col"><a class="btn-blue" href="#">ASISTIR</a></div>
-                <div class="col"><a class="btn-purple" href="#">SABER MÁS</a></div>
+                <div class="col"><a class="btn-blue" href="#reserva">ASISTIR</a></div>
+                <div class="col"><a class="btn-purple" href="#que-tendras">SABER MÁS</a></div>
             </div>
         </div>
     </div>
@@ -113,7 +113,17 @@
             $(document).ready(function(){
                 $("#show1").click(function(){
                     $("#c1").toggleClass("info");
-                    $("img").toggleClass("rotate");
+                    $("#f1").toggleClass("rotate");
+                });
+                
+                $("#show2").click(function(){
+                    $("#c2").toggleClass("info");
+                    $("#f2").toggleClass("rotate");
+                });
+                
+                $("#show3").click(function(){
+                    $("#c3").toggleClass("info");
+                    $("#f3").toggleClass("rotate");
                 });
             });
             </script>
@@ -126,7 +136,7 @@
             </div>
             
             <div id="show1" class="right">
-                <a><img class="rotate" src="<?php echo get_stylesheet_directory_uri(); ?>/img/weekend/a1.png" alt="Mostrar más"></a>
+                <a><img id="f1" class="rotate" src="<?php echo get_stylesheet_directory_uri(); ?>/img/weekend/a1.png" alt="Mostrar más"></a>
             </div>
             
             
@@ -183,6 +193,11 @@
                     Su misión es la de mejorar la vida de cientos de miles de personas alrededor del mundo y sabe que no puede hacerlo solo, por lo que siempre está haciendo alianzas estratégicas para lograrlo.
                 </p>
             </div>
+            
+            <div id="show2" class="right">
+                <a><img id="f2" class="rotate" src="<?php echo get_stylesheet_directory_uri(); ?>/img/weekend/a1.png" alt="Mostrar más"></a>
+            </div>
+            
         </div>
         
         <div class="hc">
@@ -232,6 +247,10 @@
                     En el año 2016 se certificó como Health Coach por el Institute for Integrative Nutrition en Nueva York (IIN).
                     Hoy radica con sus tres hijos y su esposo en el Estado de Morelos donde es la Directora de Asesoría Nutricional y se dedica a dar asesoría en sus redes sociales y por medio de sus NUTRIRETOS, los cuales son programas de 21 días, donde a base de su Sistema Clean de Alimentación Balanceada les ayuda a lograr sus metas.
                 </p>
+            </div>
+            
+            <div id="show3" class="right">
+                <a><img id="f3" class="rotate" src="<?php echo get_stylesheet_directory_uri(); ?>/img/weekend/a1.png" alt="Mostrar más"></a>
             </div>
         </div>
         
