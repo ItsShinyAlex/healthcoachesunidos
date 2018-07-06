@@ -81,19 +81,19 @@
                     <p>Conferencista: Irma Mejía, IIN Health Coach</p>
                     <div class="flex icons">
                         <div class="i-col">
-                            <i class="fas fa-phone"></i>
+                            <a href="https://wa.me/5515108031" target="_blank" ><i class="fas fa-phone"></i></a>
                         </div>
                         <div class="i-col">
-                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:info@tayranutricionintegral.com?subject=Contacto%20HealthCoach" target="_top" ><i class="fas fa-envelope"></i></a>
                         </div>
                         <div class="i-col">
-                            <i class="fab fa-facebook-square"></i>
+                            <a href="https://www.facebook.com/tayranutricion/" target="_blank"><i class="fab fa-facebook-square"></i></a>
                         </div>
                         <div class="i-col">
-                            <i class="fab fa-instagram"></i>
+                            <a href="https://www.instagram.com/tayranutricionintegral/" target="_blank"><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="i-col">
-                            <i class="fas fa-globe-asia"></i>
+                            <a href="https://www.tayranutricionintegral.com" target="_blank"><i class="fas fa-globe-asia"></i></a>
                         </div>
                     </div>
                     <div class="flex horarios">
@@ -153,23 +153,25 @@
                 <div class="col big">
                     <h3>Alimentación Natural + Colónicos = Salud</h3>
                     <p>Conferencista: Alex Palombo, IIN Health Coach</p>
+                    
                     <div class="flex icons">
                         <div class="i-col">
-                            <i class="fas fa-phone"></i>
+                            <a href="https://wa.me/5554152414" target="_blank" ><i class="fas fa-phone"></i></a>
                         </div>
                         <div class="i-col">
-                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:alexminegocioglobal@gmail.com?subject=Contacto%20HealthCoach" target="_top" ><i class="fas fa-envelope"></i></a>
                         </div>
                         <div class="i-col">
-                            <i class="fab fa-facebook-square"></i>
+                            <a href="https://www.facebook.com/AlexDetoxCoach/" target="_blank"><i class="fab fa-facebook-square"></i></a>
                         </div>
                         <div class="i-col">
-                            <i class="fab fa-instagram"></i>
+                            <a href="https://www.instagram.com/alexdetoxcoach/" target="_blank"><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="i-col">
-                            <i class="fas fa-globe-asia"></i>
+                            <a href="https://www.colonicos.com" target="_blank"><i class="fas fa-globe-asia"></i></a>
                         </div>
                     </div>
+                    
                     <div class="flex horarios">
                         <div class="i-col"><i class="far fa-clock"></i></div>
                         <div class="t-col"><p>11:00 - 11:50 HRS.	</p></div>
@@ -210,19 +212,19 @@
                     <p>Conferencista: Mariana García Sarquiz, Nutrióloga y Health Coach</p>
                     <div class="flex icons">
                         <div class="i-col">
-                            <i class="fas fa-phone"></i>
+                            <a href="https://wa.me/7351349560" target="_blank" ><i class="fas fa-phone"></i></a>
                         </div>
                         <div class="i-col">
-                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:mariana@anutricional.com?subject=Contacto%20HealthCoach" target="_top" ><i class="fas fa-envelope"></i></a>
                         </div>
                         <div class="i-col">
-                            <i class="fab fa-facebook-square"></i>
+                            <a href="https://www.facebook.com/anutricionalmgs/" target="_blank"><i class="fab fa-facebook-square"></i></a>
                         </div>
                         <div class="i-col">
-                            <i class="fab fa-instagram"></i>
+                            <a href="https://www.instagram.com/anutricional/" target="_blank"><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="i-col">
-                            <i class="fas fa-globe-asia"></i>
+                            <a href="https://www.anutricional.com" target="_blank"><i class="fas fa-globe-asia"></i></a>
                         </div>
                     </div>
                     <div class="flex horarios">
