@@ -671,6 +671,16 @@ h2 {
   background: url(img/weekend/fondo-madera.jpg) center no-repeat;
   background-size: cover;
 }
+#speakers .info {
+  display: none;
+}
+#speakers .right .rotate {
+  -ms-transform: rotate(180deg);
+  /* IE 9 */
+  -webkit-transform: rotate(180deg);
+  /* Safari 3-8 */
+  transform: rotate(180deg);
+}
 #speakers h1 {
   padding-top: 60px;
 }

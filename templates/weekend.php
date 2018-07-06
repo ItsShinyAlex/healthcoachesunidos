@@ -58,6 +58,7 @@
     </div>
 </section>
 
+
 <section id="speakers">
    <div class="blue-line"></div>
     <div class="container flex flex-center center">
@@ -106,12 +107,33 @@
                     <br>Concientizar como hemos ido perdiendo la posibilidad de vivir plenos, felices y abundantes y cómo podemos recobrarla. </h4>
                 </div>
             </div>
+            
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script>
+            $(document).ready(function(){
+                $("#show1").click(function(){
+                    $("#c1").toggleClass("info");
+                    $("img").toggleClass("rotate");
+                });
+            });
+            </script>
+
+            
             <div class="info" id="c1">
                 <p>Health coach desde el 2013, múltiples estudios en Medicina alternativa y desarrollo del ser.</p>
                 <p>Coach en la escuela de nutrición mas grande del mundo.</p>
                 <p>Creadora del Diplomado en Nutrición Integral (4 generaciones) talleres de cocina saludable y nutrición integral, programa de radio semanal Viviendo en Balance, conferencista, capacitadora y actualmente Presidenta de la AHCUM</p>
             </div>
+            
+            <div id="show1" class="right">
+                <a><img class="rotate" src="<?php echo get_stylesheet_directory_uri(); ?>/img/weekend/a1.png" alt="Mostrar más"></a>
+            </div>
+            
+            
         </div>
+        
+        
+  
         
         <div class="hc">
             <div class="flex">
