@@ -855,16 +855,16 @@ h2 {
     margin-bottom: 0px;
   }
   #que-tendras .fondo {
-    background: url(img/weekend/microfono.jpg) center no-repeat;
-    background-size: cover;
     margin-right: 50px;
   }
   #que-tendras h2 {
-    padding-top: 80px;
+    text-align: center;
+    padding-top: 30px;
   }
   #que-tendras ul {
-    padding-bottom: 160px;
-    padding-right: 50px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    padding-left: 40px;
   }
   #que-tendras ul li::before {
     content: "• ";
@@ -874,15 +874,11 @@ h2 {
     top: 12px;
   }
   #que-tendras li {
-    font-size: 19px;
+    font-size: 16px;
     color: #9a999e;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     margin-left: 10px;
     text-indent: -30px;
-  }
-  #speakers {
-    background: url(img/weekend/fondo-madera.jpg) center no-repeat;
-    background-size: cover;
   }
   #speakers h2 {
     padding-top: 50px;
@@ -901,12 +897,12 @@ h2 {
     padding-top: 60px;
   }
   #speakers .col {
-    margin: 10px;
+    margin: 0px;
   }
   #speakers .hc {
     min-width: 88%;
     padding: 30px 70px;
-    text-align: left;
+    text-align: center;
     margin-top: 45px;
     margin-bottom: 40px;
     background-color: white;
@@ -915,36 +911,40 @@ h2 {
     /*any color you want*/
   }
   #speakers .hc .small {
-    padding-right: 50px;
+    padding-right: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   #speakers .hc h3 {
     color: #5292bb;
     font-weight: 600;
   }
   #speakers .hc h4 {
-    color: #5292bb;
-    font-weight: 500;
+    font-size: 16px;
   }
   #speakers .hc i {
     width: 1%;
   }
   #speakers .hc p {
-    font-size: 24px;
+    font-size: 14px;
   }
   #speakers .hc .i-col {
-    width: 5%;
-    margin: 7px;
+    width: 16%;
+    margin: 3px;
     margin-top: 0px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
   #speakers .hc .t-col {
-    margin-right: 20px;
+    margin-right: 0px;
+    width: 30%;
   }
   #speakers .hc .icons i {
     color: #46156c;
   }
   #speakers .hc .horarios i {
     color: #a3bd31;
+    padding-right: 20px;
   }
   #speakers .hc .info {
     text-align: justify;
@@ -967,18 +967,19 @@ h2 {
     width: 100%;
   }
   #reserva .container {
-    max-width: 1350px;
+    max-width: 650px;
   }
   #reserva .pad-left {
-    padding-left: 60px;
+    padding-left: 10px;
+    text-align: center;
   }
   #reserva .flex .col {
-    width: 54%;
+    width: 100%;
   }
   #reserva .flex .p-col {
-    width: 46%;
+    width: 100%;
     background-color: #46156c;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
     padding-left: 80px;
     padding-right: 20px;
   }
@@ -986,7 +987,7 @@ h2 {
     font-weight: 600;
   }
   #reserva h2 {
-    padding-top: 100px;
+    padding-top: 30px;
   }
 }
 /* ==========================================================================
@@ -1022,6 +1023,42 @@ h2 {
 }
 #footer .columna {
   width: 30%;
+}
+@media only screen and (max-width: 600px) {
+  #footer {
+    padding: 20px;
+    background-color: #282828;
+  }
+  #footer .menu-footer {
+    padding-left: 15px;
+  }
+  #footer a:hover {
+    color: #9a999e;
+  }
+  #footer a {
+    color: white;
+  }
+  #footer p {
+    color: white;
+    font-size: 12px;
+    word-spacing: 4px;
+  }
+  #footer #flogo {
+    width: 40%;
+  }
+  #footer #flogo p {
+    padding: 0px;
+    margin: 0px;
+  }
+  #footer .bot {
+    padding-top: 0px;
+  }
+  #footer .columna {
+    width: 100%;
+  }
+  #footer img {
+    padding-bottom: 20px;
+  }
 }
 /* ==========================================================================
    header menu
