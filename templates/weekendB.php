@@ -1,5 +1,5 @@
 <?php
-    /* Template Name: weekend coaching */ 
+    /* Template Name: weekend coaching B-SIDE*/ 
     get_header();
 ?>
 
@@ -10,21 +10,13 @@
 <head>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 </head>
-<section id="weekend">
-    <div class="container">
-        <div class="r-allign">
-            <h1>1er Health Coaching
-            Weekend en México</h1>
-            <p class="purple">¡Vive la experiencia de salud y bienestar<br> este 20 y 21 de Octubre!</p>
-            <div class="flex">
-                <div class="col"><a class="btn-blue" href="#reserva">ASISTIR</a></div>
-                <div class="col"><a class="btn-purple" href="#que-tendras">SABER MÁS</a></div>
-            </div>
-        </div>
-    </div>
+<section class="b" id="weekend">
+    
+    <?php masterslider("ms-1"); ?>
+    
 </section>
 
-<section id="blue-ahcum">
+<section class="b" id="blue-ahcum">
    <div class="green-line"></div>
     <div class="container center">
         <p class="pad-top">Creado por la Asociación de Health Coaches Unidos de México (AHCUM).</p>
@@ -33,7 +25,7 @@
    <div class="green-line"></div>
 </section>
 
-<section id="que-tendras">            
+<section class="template-section b" id="que-tendras">            
     <div class="flex">
         <div class="sin-padding columna fondo"></div>
         <div class="columna">
@@ -45,7 +37,8 @@
                         
                 </li>
                 <li>
-                    Sesiones gratuitas de 30 minutos con health coaches expertos en diversos temas de salud integral.
+                    Sesiones gratuitas de 
+                    30 minutos con health coaches expertos en diversos temas de salud integral.
 
                 </li>
                 <li>
@@ -1443,12 +1436,16 @@
     <div class="blue-line"></div>
 </section>
 
-<section id="reserva">
+
+
+
+
+<section class="template-section b" id="reserva">
     <div class="container">
        
         <div class="flex">
             <div class="col"> 
-               <div class="pad-left">
+               <div class="center-item">
                     <h2>¿Cómo llegar?</h2>
                     <p>Gran Recinto. Tlalnepantla.
                     <br>Estado de México.</p>
@@ -1456,7 +1453,7 @@
                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.3726602875645!2d-99.22847678593696!3d19.525608086831564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d21d974c6fd2ab%3A0x58e69addf026501c!2sTeatro+Gran+Recinto!5e0!3m2!1ses-419!2smx!4v1530825494813" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
             
-             <div class="col p-col">
+          <div class="col p-col">
                 <div class="mov-center">
                     <h2>Reserva tu lugar
                     <br> hoy mismo</h2>

@@ -44,6 +44,12 @@ html {
   line-height: 1.4;
   font-family: 'Roboto', sans-serif;
 }
+a {
+  transition: all 0.3s ease-in-out !important;
+}
+.mk-quick-contact-wrapper {
+  display: none;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -140,7 +146,7 @@ i {
   margin: 0 auto;
 }
 header {
-  padding: 10px 0;
+  padding: 0px;
 }
 #logo {
   display: block;
@@ -199,7 +205,7 @@ ul li::before {
   color: #f1f2f4;
   font-size: 18px;
   border: 0;
-  padding: 4px 24px;
+  padding: 5px 24px;
   border-radius: 8px;
 }
 .btn-blue {
@@ -207,7 +213,7 @@ ul li::before {
   color: #f1f2f4;
   font-size: 18px;
   border: 0;
-  padding: 4px 24px;
+  padding: 5px 24px;
   border-radius: 8px;
 }
 .btn-green {
@@ -232,23 +238,42 @@ div.center {
    Header
    ========================================================================== */
 .header-style-2 .header-logo a img {
-  width: 200px;
+  width: 225px;
 }
 .mk-desktop-logo .dark-logo .mk-svg {
-  width: 200px;
+  width: 225px;
 }
 img.mk-desktop-logo {
-  width: 200px;
+  width: 225px;
 }
 img.dark-logo {
-  width: 200px;
+  width: 225px;
 }
 img.mk-svg {
-  width: 200px;
+  width: 225px;
 }
 .header-style-1 .logo-has-sticky .mk-sticky-logo,
 .header-style-3 .logo-has-sticky .mk-sticky-logo {
   opacity: 1;
+}
+.header-style-1 .mk-header-padding-wrapper,
+.header-style-2 .mk-header-padding-wrapper,
+.header-style-3 .mk-header-padding-wrapper {
+  padding-top: 89px;
+}
+.fit-logo-img a img {
+  display: block;
+  height: 100%;
+  max-width: none;
+}
+img.mk-svg {
+  width: 225px;
+}
+.mk-grid.header-grid {
+  margin: 0px;
+}
+.header-style-1.header-align-left .header-logo a {
+  margin-left: 0px;
 }
 /* ==========================================================================
    Home
@@ -602,6 +627,10 @@ h2 {
   margin: auto;
   max-width: 1200px;
 }
+#purple-m {
+  background-color: #46156c;
+  height: 50px;
+}
 #weekend {
   padding: 170px 190px;
   min-height: 300px;
@@ -671,6 +700,19 @@ h2 {
   background: url(img/weekend/fondo-madera.jpg) center no-repeat;
   background-size: cover;
 }
+#speakers img {
+  border-radius: 50% !important;
+}
+#speakers .receso {
+  text-align: center !important;
+}
+#speakers .receso h2 {
+  margin: 0;
+  padding: 0;
+}
+#speakers .other {
+  background-color: #f6f6f6 !important;
+}
 #speakers h2 {
   padding-top: 50px;
 }
@@ -689,6 +731,9 @@ h2 {
 }
 #speakers .col {
   margin: 10px;
+}
+#speakers .big {
+  min-width: 70%;
 }
 #speakers .hc {
   min-width: 88%;
@@ -769,22 +814,96 @@ h2 {
   padding-left: 80px;
   padding-right: 20px;
 }
+#reserva .flex .p-col p {
+  padding-right: 130px;
+}
+#reserva .flex .p-col .pad-top {
+  padding-top: 20px;
+}
 #reserva h3 {
   font-weight: 600;
 }
 #reserva h2 {
   padding-top: 100px;
 }
+#reserva .btn-green {
+  background-color: #a3bd31;
+  color: #f1f2f4;
+  font-size: 18px;
+  border: 0;
+  padding: 4px 24px;
+  border-radius: 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+#reserva .btn-green i {
+  color: white;
+  margin: 0px, 25px;
+  padding: 0px, 25px;
+  transition: 0.4s;
+}
+#reserva .bcol {
+  width: 42% !important;
+}
+#reserva a {
+  display: block;
+  float: left;
+  text-align: center;
+}
+#reserva a:hover {
+  color: #5292bb;
+}
+#reserva a:hover i {
+  color: #5292bb;
+}
+#reserva .fcentered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ==========================================================================
+   Weekend B-SIDE OF THE DEVIL
+   ========================================================================== */
+#weekend.b {
+  padding: 0px;
+  min-height: 550px;
+  background: none;
+}
+#weekend.b h1,
+#weekend.b h2 {
+  color: white;
+}
+#weekend.b h2 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 95%;
+}
+#weekend.b a {
+  font-size: 14px;
+}
+#blue-ahcum.b {
+  background-color: #32644b;
+}
+#que-tendras.b .fondo {
+  background: url(img/weekend/microfonoB.jpg) center no-repeat;
+  background-size: cover;
+  margin-right: 50px;
+}
+#reserva.b .center-item {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
 /* ==========================================================================
    Weekend     RESPONSIVE
    ========================================================================== */
 @media only screen and (max-width: 600px) {
   .btn-blue {
-    padding: 4px 20px;
+    padding: 2px 19px;
     font-size: 12px;
   }
   .btn-purple {
-    padding: 4px 20px;
+    padding: 2px 19px;
     font-size: 12px;
     min-height: 22px;
   }
@@ -808,7 +927,7 @@ h2 {
   #weekend {
     padding: 20px 30px;
     min-height: 220px;
-    background: url("img/weekend/banner1_mujer.png") center -20px no-repeat;
+    background: url("img/weekend/banner1_mujer.jpg") center no-repeat;
     background-size: cover;
   }
   #weekend p {
@@ -845,7 +964,7 @@ h2 {
     background-color: #4493bc;
   }
   #blue-ahcum .green-line {
-    min-height: 10px;
+    min-height: 12px;
     background-color: #a3bd31;
   }
   #blue-ahcum p {
@@ -880,11 +999,21 @@ h2 {
     margin-left: 10px;
     text-indent: -30px;
   }
+  #speakers #date-btns a {
+    pointer-events: none;
+  }
+  #speakers .btn-blue {
+    padding: 2px 8px;
+  }
   #speakers h2 {
     padding-top: 50px;
   }
   #speakers .info {
     display: none;
+  }
+  #speakers .right {
+    float: none;
+    margin-top: 20px;
   }
   #speakers .right .rotate {
     -ms-transform: rotate(180deg);
@@ -898,6 +1027,7 @@ h2 {
   }
   #speakers .col {
     margin: 0px;
+    padding: 0px 5px;
   }
   #speakers .hc {
     min-width: 88%;
@@ -942,6 +1072,17 @@ h2 {
   #speakers .hc .icons i {
     color: #46156c;
   }
+  #speakers .hc .horarios {
+    margin: 20px 0px;
+  }
+  #speakers .hc .horarios .i-col {
+    width: 10%;
+    margin-left: 20%;
+  }
+  #speakers .hc .horarios .t-col {
+    width: 60%;
+    margin-right: 5%;
+  }
   #speakers .hc .horarios i {
     color: #a3bd31;
     padding-right: 20px;
@@ -977,17 +1118,37 @@ h2 {
     width: 100%;
   }
   #reserva .flex .p-col {
-    width: 100%;
-    background-color: #46156c;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding-bottom: 40px;
-    padding-left: 80px;
-    padding-right: 20px;
+  }
+  #reserva .flex .p-col .mov-center {
+    margin-left: 5%;
+    width: 65%;
+  }
+  #reserva .flex .p-col .mov-center .btn-green {
+    font-size: 20px;
+  }
+  #reserva .flex .p-col p {
+    padding-right: 10px;
   }
   #reserva h3 {
     font-weight: 600;
   }
   #reserva h2 {
     padding-top: 30px;
+  }
+  #reserva .bcol {
+    width: 100% !important;
+    margin-bottom: 12px;
   }
 }
 /* ==========================================================================
@@ -1065,7 +1226,7 @@ h2 {
    ========================================================================== */
 ul li::before {
   content: "• ";
-  color: white;
+  color: #46156c;
 }
 /* ==========================================================================
    Helper classes

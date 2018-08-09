@@ -65,6 +65,17 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+a{
+    transition: all 0.3s ease-in-out !important; 
+    &:hover{
+        //color: yellowgreen;
+    }
+}
+
+.mk-quick-contact-wrapper{
+    display: none;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -185,7 +196,9 @@ i{
 }
 
 header {
-    padding: 10px 0;
+    padding: 0px;
+    
+    
 }
 
 #logo {
@@ -258,7 +271,7 @@ ul li::before {
     color: @white;
     font-size: 18px;
     border: 0;
-    padding: 4px 24px;
+    padding: 5px 24px;
     border-radius: 8px;
     
 }
@@ -268,7 +281,7 @@ ul li::before {
     color: @white;
     font-size: 18px;
     border: 0;
-    padding: 4px 24px;
+    padding: 5px 24px;
     border-radius: 8px;
     
 }
@@ -300,30 +313,58 @@ div.center{
    Header
    ========================================================================== */
 
+@header: 225px;
+
     .header-style-2 .header-logo a img {
-    width: 200px;
+    width: @header;
     
     }
 
 .mk-desktop-logo .dark-logo .mk-svg{
-    width: 200px;
+    width: @header;
 }
 
 img.mk-desktop-logo{
-    width: 200px;
+    width: @header;
 }
 
 img.dark-logo{
-    width: 200px;
+    width: @header;
 }
 
 img.mk-svg{
-    width: 200px;
+    width: @header;
 }
 
 
 .header-style-1 .logo-has-sticky .mk-sticky-logo, .header-style-3 .logo-has-sticky .mk-sticky-logo {
     opacity: 1;
+}
+
+.header-style-1 .mk-header-padding-wrapper, .header-style-2 .mk-header-padding-wrapper, .header-style-3 .mk-header-padding-wrapper {
+    padding-top: 89px;
+	//background-color: #46156c;
+}
+
+.fit-logo-img a img {
+    display: block;
+    height: 100%;
+    max-width: none;
+}
+img.mk-svg {
+    width: @header;
+}
+
+.header-logo img {
+
+}
+
+.mk-grid.header-grid{
+	margin: 0px;
+}
+
+.header-style-1.header-align-left .header-logo a {
+    margin-left: 0px;
 }
 
 /* ==========================================================================
@@ -783,6 +824,11 @@ h1, h2 {
     max-width: 1200px;
 }
 
+#purple-m{
+    background-color: @purple;
+    height: 50px;
+}
+
 #weekend{
     
     padding: 170px 190px;
@@ -867,6 +913,23 @@ h1, h2 {
 
 #speakers{
     ////////////////////////// experimental
+    
+    img {
+          border-radius: 50% !important;
+        }
+    
+    .receso{
+        text-align: center !important;
+        h2{
+            margin: 0;
+            padding: 0;
+        }
+    }
+    
+     .other{
+        background-color: #f6f6f6 !important;
+    }
+    
     h2{
         padding-top: 50px;
     }
@@ -900,6 +963,10 @@ h1, h2 {
     
     .col{
         margin: 10px;
+    }
+    
+    .big{
+        min-width: 70%; //quitar en responsive
     }
     
     .hc{
@@ -1006,6 +1073,13 @@ h1, h2 {
             padding-left: 80px;
             padding-right: 20px;
             
+            p{
+                padding-right: 130px;
+            }
+            .pad-top{
+                padding-top: 20px; 
+            }
+            
         }
     }
     h3{
@@ -1014,6 +1088,108 @@ h1, h2 {
     
     h2{
         padding-top: 100px;
+    }
+    
+    .btn-green{
+        background-color: @green;
+        color: @white;
+        font-size: 18px;
+        border: 0;
+        padding: 4px 24px;
+        border-radius: 8px;
+        text-align: center;
+        vertical-align: middle;
+
+        
+        i{
+            color: white;
+            margin: 0px, 25px;
+            padding: 0px, 25px;
+            transition: 0.4s;
+        }
+    
+    }
+    
+    .bcol{
+        width: 42% !important;
+    }
+    
+    a{
+        display:block;
+      float:left;
+      text-align:center;
+        &:hover{
+            color: @blue;
+            i{
+                color: @blue;
+                
+            }
+        }
+        
+    }
+    
+    .fcentered{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+}
+
+
+/* ==========================================================================
+   Weekend B-SIDE OF THE DEVIL
+   ========================================================================== */
+@greenb: #32644b;
+
+#weekend{
+    &.b{
+       padding: 0px;
+    min-height: 550px;
+    background: none;
+        
+        h1, h2{
+            color: white;
+        }
+        
+        h2{
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 95%;
+        }
+        
+        a{
+            font-size: 14px;
+        }
+
+    }
+    
+}
+
+#blue-ahcum{
+    &.b{
+        background-color: @greenb;
+    }
+    
+}
+
+#que-tendras{
+    &.b{
+       .fondo{
+            background: url(img/weekend/microfonoB.jpg) center no-repeat;
+            background-size: cover;
+            margin-right: 50px;
+        } 
+    }
+}
+
+#reserva{
+    &.b{
+        .center-item{
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+ 
+        }
     }
 }
 
@@ -1025,11 +1201,11 @@ h1, h2 {
 @media only screen and (max-width: 600px) {
     
     .btn-blue{
-        padding: 4px 20px;
+        padding: 2px 19px;
         font-size: 12px;
     }
     .btn-purple{
-        padding: 4px 20px;
+       padding: 2px 19px;
         font-size: 12px;
         min-height: 22px;
     }
@@ -1060,7 +1236,7 @@ h1, h2 {
     
     padding: 20px 30px;
     min-height: 220px;
-    background: url("img/weekend/banner1_mujer.png") center -20px no-repeat;
+    background: url("img/weekend/banner1_mujer.jpg") center no-repeat;
     background-size: cover;
     
     p{
@@ -1103,7 +1279,7 @@ h1, h2 {
 #blue-ahcum{
     //min-height: 200px;
     .green-line{
-        min-height: 10px;
+        min-height: 12px;
         background-color: @green;    
     }
     
@@ -1150,6 +1326,18 @@ h1, h2 {
 }
 //RESPONSIVE
 #speakers{
+    
+   
+    
+    #date-btns{
+        a{
+            pointer-events: none;
+        }
+    }
+    
+    .btn-blue{
+        padding: 2px 8px;
+    }
     ////////////////////////// experimental
     h2{
         padding-top: 50px;
@@ -1160,6 +1348,8 @@ h1, h2 {
     }
     
     .right{
+        float: none;
+        margin-top: 20px;
         .rotate{
             -ms-transform: rotate(180deg); /* IE 9 */
             -webkit-transform: rotate(180deg); /* Safari 3-8 */
@@ -1181,6 +1371,7 @@ h1, h2 {
     
     .col{
         margin: 0px;
+        padding: 0px 5px;
     }
     
     .hc{
@@ -1235,6 +1426,18 @@ h1, h2 {
             
         }
         .horarios{
+            margin: 20px 0px;
+            //width: 80%;
+            .i-col{
+                width: 10%;
+                margin-left: 20%;
+            }
+            
+            .t-col{
+                width: 60%;
+                margin-right: 5%;
+            }
+            
             i{
                 color: @green; 
                 padding-right: 20px;
@@ -1286,11 +1489,28 @@ h1, h2 {
             width: 100%;
         }
         .p-col{
-            width: 100%;
-            background-color: @purple;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             padding-bottom: 40px;
-            padding-left: 80px;
-            padding-right: 20px;
+            .mov-center{
+                margin-left: 5%;
+                width: 65%;
+                .btn-green{
+                    font-size: 20px;
+                }
+            }
+            
+            p{
+                padding-right: 10px;
+            }
             
         }
     }
@@ -1300,6 +1520,11 @@ h1, h2 {
     
     h2{
         padding-top: 30px;
+    }
+    
+    .bcol{
+        width: 100% !important;
+        margin-bottom: 12px; 
     }
 }
     
@@ -1395,7 +1620,7 @@ h1, h2 {
 
     ul li::before {
     content: "• ";
-    color: white;
+    color: #46156c;
     }
 
      
