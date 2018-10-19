@@ -32,21 +32,34 @@ $disable_mobile = ($mk_options['footer_disable_mobile'] == 'true' ) ? $mk_footer
 	
 <section id="footer">
    
+   <a class="logotipo" href="https://healthcoachesunidos.org/">
+       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/weekend/healthcoachesunidos.png" alt="Health Coaches Unidos">
+   </a>
+   
     <div class="menu-footer">
-        <p><a href="https://healthcoachesunidos.org/aviso-de-privacidad/">Aviso de privacidad</a>  |  <a>Términos y condiciones</a>  |  <a href="https://healthcoachesunidos.org/quienes-somos/#contact">Contacto</a></p>       
-    </div>
-    <div class="flex">
-        <div id="flogo" class="columna">
-            <p>Apoyados por:</p>
-            <a href="https://www.integrativenutrition.com/" target="_blank" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-footer.png" alt="Institute of integrative nutrition"></a>
-        </div>
-        <div class="columna bot">
+       <div class="flex">
+           <div class="col">
+               <a href="https://healthcoachesunidos.org/aviso-de-privacidad/">Aviso de privacidad</a>
+           </div>
+           <div class="col">
+                <a>Términos y condiciones</a> 
+           </div>
+           <div class="col">
+                <a href="https://healthcoachesunidos.org/contacto/">Contacto</a>
+           </div>           
+       </div>
+         
+         
+         <div class="flex">      
+        <div class="col">
             <p>© 2018 Todos los derechos reservados </p>
         </div>
-        <div class="columna bot">
+        <div class="col">
             <a href="https://esbrillante.mx/diseno-de-paginas-web-profesionales-empresas/" target="_blank" ><p>EsBrillante: Desarrollo de Soluciones Web</p></a>
         </div>
     </div>
+    </div>
+    
 </section>
 
 
@@ -110,5 +123,27 @@ if ( $mk_options['header_search_location'] === 'fullscreen_search' ) {
 	<?php wp_footer(); ?>
 
 	<?php do_action( 'mk_theme_before_body_closing' ); ?>
+	
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '846027708933706'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+ <img height="1" width="1" 
+src="https://www.facebook.com/tr?id=846027708933706&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+
 </body>
 </html>
